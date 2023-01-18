@@ -1,58 +1,180 @@
+/*
+------------------------------------------
+CSS Reset
+------------------------------------------
+ http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+------------------------------------------
+Styling
+------------------------------------------
+*/
+
+html {
+  --accent-color: #48a169;
+  --accent-color-light: #54b578;
+  --main-background-color: #FBDDE8;
+  --paragraph-text-color: #181818;
+  --heading-text-color: #FFF;
+  --index-text-color: #fad9b8;
+  --section-background-color: #FCA61B;
+}
+
+/*
+------------------------------------------
+Typography
+------------------------------------------
+*/
+
+html {
+  font-family: 'DotGothic16', sans-serif;
+}
+
+h1 {
+  font-size: 61pt;
+  text-transform: uppercase;
+  padding: 0.5em;
+}
+
+h2 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 0.5em;
+}
+
+h3 {
+  font-weight: 600;
+  padding: 3em;
+  line-height: 3em;
+}
+
+p {
+  color: var(--paragraph-text-color);
+  margin: 5%;
+}
+
+/*
+------------------------------------------
+General
+------------------------------------------
+*/
+
 *{
-  padding: none;
-  margin: none;
   box-sizing: border-box;
 }
 
 html {
-  margin: none;
-  background-color: #FBDDE8;
-  font-family: 'Lilita One', cursive;
-  font-family: 'Quicksand', sans-serif;
-  color: #181818;
+  background-color: var(--main-background-color);
   text-align: center;
-  width: 100%;
+}
+
+section {
+  background-color: var(--section-background-color);
+  margin: 5%;
+}
+
+.title-section {
+  background-color: var(--accent-color);
+
 }
 
 header {
-  background-color: #71b98b;
-  color: #FFF;
-  display: fixed;
-  margin-top: none;
-  margin-bottom: 5em;
+  position: sticky;
+  top: 0px;
+  background-color: var(--accent-color);
+  color: var(--heading-text-color);
 }
 
-#main-title {
-  padding: 0.25em;
-  margin-top: 100px;
-  text-transform: uppercase;
+footer {
+  position: sticky;
+  bottom: 0px;
+  background-color: var(--accent-color);
+  color: var(--heading-text-color);
+  margin-top: 5em;
 }
 
-nav {
+#welcome {
+  background-image: URL(https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-768x512.jpg); 
+  background-blend-mode: multiply;
+}
+
+#subtitle {
+  font-size: 0.9em;
+  padding: 0.5em;
+  margin-bottom: 3em;
+}
+
+.pages-index {
+  background-color: var(--accent-color-light);
+}
+
+/* nav {
   line-height: 1em;
   display: flex;
   flex-direction: column;
   align-items: justify content;
+} */
+
+a {
+  text-decoration: none;
+  color: var(--index-text-color);
 }
 
-a {text-decoration: none;}
+button {
+  background: 
+  display: inline-block;
+}
 
 
 ul {
     list-style: none;
 }
 
-li {
-  padding: 2em;
-}
 
-footer {
-  
-  background-color: #71b98b;
-  color: #FFF;
-
-  display: fixed;
-  margin-bottom: none;
-  margin-top: 5em;
-}
 
