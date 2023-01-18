@@ -89,6 +89,7 @@ h2 {
 }
 
 h3 {
+  font-family: 'Chakra Petch', sans-serif;
   font-weight: 600;
   padding: 3em;
   line-height: 3em;
@@ -96,17 +97,28 @@ h3 {
 
 p {
   color: var(--paragraph-text-color);
-  margin: 5%;
+  padding: 1.5em;
 }
 
 /*
 ------------------------------------------
-General
+Grid
 ------------------------------------------
 */
 
-*{
+*, 
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
 }
 
 html {
@@ -141,7 +153,9 @@ footer {
 
 #welcome {
   background-image: URL(https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-768x512.jpg); 
-  background-blend-mode: multiply;
+  background-color: #915a02;
+  background-blend-mode: soft-light;
+  color: var(--heading-text-color);
 }
 
 #subtitle {
@@ -152,6 +166,12 @@ footer {
 
 .pages-index {
   background-color: var(--accent-color-light);
+  padding: 1em;
+}
+
+p.intro-section {
+  padding: 2em;
+  padding-bottom: 200px;
 }
 
 /* nav {
@@ -166,9 +186,12 @@ a {
   color: var(--index-text-color);
 }
 
-button {
-  background: 
+a.button {
+  font-size: 34pt;
+  background-color: var(--accent-color-light);
+  padding: 1.5em;
   display: inline-block;
+  border-radius: 30px;
 }
 
 
