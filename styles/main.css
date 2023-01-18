@@ -156,7 +156,7 @@ footer.container {
 }
 
 #welcome {
-  background-image: URL(https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-768x512.jpg); 
+  background-image: url(../images/matrix-code-image.jpg); 
   background-color: #f5a4c1;
   background-blend-mode: soft-light;
   background-size: cover;
@@ -176,6 +176,10 @@ p.intro-section {
 a {
   text-decoration: none;
   color: var(--index-text-color);
+}
+
+#site-title {
+  color: var(--heading-text-color);
 }
 
 a.button {
