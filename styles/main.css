@@ -228,6 +228,11 @@ td {
     font-size: 3em;
   }
 
+  h2 {
+    font-size: 1.5em;
+    padding-bottom: 2em;
+  }
+
   h3 {
     font-size: 1.5em;
     padding: 2em;
