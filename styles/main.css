@@ -223,6 +223,7 @@ td {
 }
 
 @media (min-width: 768px) {
+
   h3 {
     font-size: 1.5em;
     padding: 2em;
@@ -233,6 +234,27 @@ td {
     padding-left: 1em;
     padding-right: 1em;
   }
+
+  section {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
+  section.intro-section {
+    padding-top: 0;
+  }
+
+  table {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  img {
+    width: 70%;
+  }
+
 }
 
 @media (min-width: 1200px) {
