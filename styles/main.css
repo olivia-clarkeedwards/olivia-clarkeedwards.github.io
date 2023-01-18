@@ -227,7 +227,7 @@ td {
   border-bottom: solid 2px var(--accent-color);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
 
   h1 {
     font-size: 3em;
