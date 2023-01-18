@@ -115,6 +115,11 @@ p {
   color: var(--index-text-color);
 }
 
+footer p {
+  color: var(--heading-text-color);
+  font-size: 0.7em;
+}
+
 /*
 ------------------------------------------
 Grid
