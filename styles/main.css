@@ -53,7 +53,7 @@ table {
 
 /*
 ------------------------------------------
-Styling
+Colours
 ------------------------------------------
 */
 
@@ -64,7 +64,7 @@ html {
   --paragraph-text-color: #181818;
   --heading-text-color: #FFF;
   --index-text-color: #fad9b8;
-  --section-background-color: #FCA61B;
+  --section-background-color: #fc70a3;
 }
 
 /*
@@ -78,26 +78,34 @@ html {
 }
 
 h1 {
-  font-size: 61pt;
+  font-size: 1.5em;
   text-transform: uppercase;
   padding: 0.5em;
 }
 
 h2 {
   font-family: 'Chakra Petch', sans-serif;
-  font-size: 0.5em;
+  font-size: 1em;
 }
 
 h3 {
   font-family: 'Chakra Petch', sans-serif;
-  font-weight: 600;
-  padding: 3em;
-  line-height: 3em;
+  font-size: 1.2em;
+  padding: 1em;
+  line-height: 2em;
 }
 
 p {
   color: var(--paragraph-text-color);
-  padding: 1.5em;
+  padding: 1em;
+}
+
+p:first-of-type {
+  padding-top: 50px;
+}
+
+p:last-of-type {
+  padding-bottom: 50px;
 }
 
 /*
@@ -131,37 +139,28 @@ section {
   margin: 5%;
 }
 
-.title-section {
-  background-color: var(--accent-color);
-
-}
-
-header {
-  position: sticky;
+header.container {
+  position: static;
   top: 0px;
-  background-color: var(--accent-color);
+  padding: 0px 0px;
   color: var(--heading-text-color);
+  background-color: var(--accent-color);
 }
 
-footer {
-  position: sticky;
+footer.container {
+  position: static;
   bottom: 0px;
-  background-color: var(--accent-color);
+  padding: 0px 0px;
   color: var(--heading-text-color);
-  margin-top: 5em;
+  background-color: var(--accent-color);
 }
 
 #welcome {
   background-image: URL(https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-768x512.jpg); 
-  background-color: #915a02;
+  background-color: #f5a4c1;
   background-blend-mode: soft-light;
-  color: var(--heading-text-color);
-}
-
-#subtitle {
-  font-size: 0.9em;
-  padding: 0.5em;
-  margin-bottom: 3em;
+  background-size: cover;
+  color: var(--paragraph-text-color);
 }
 
 .pages-index {
@@ -170,16 +169,9 @@ footer {
 }
 
 p.intro-section {
-  padding: 2em;
+  padding: 2rem;
   padding-bottom: 200px;
 }
-
-/* nav {
-  line-height: 1em;
-  display: flex;
-  flex-direction: column;
-  align-items: justify content;
-} */
 
 a {
   text-decoration: none;
@@ -187,13 +179,11 @@ a {
 }
 
 a.button {
-  font-size: 34pt;
   background-color: var(--accent-color-light);
   padding: 1.5em;
   display: inline-block;
   border-radius: 30px;
 }
-
 
 ul {
     list-style: none;
