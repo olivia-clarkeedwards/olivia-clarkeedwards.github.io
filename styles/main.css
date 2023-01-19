@@ -289,6 +289,15 @@ td {
     margin-left: 0px;
     margin-right: 0px;
   }
+
+  ul {
+    font-size: 2em;
+    line-height: 2em;
+  }
+
+  footer p {
+    font-size: 1.5em;
+  }
   
 }
 
