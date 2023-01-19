@@ -285,14 +285,22 @@ td {
     vertical-align: middle;
   }
 
+  h3 {
+    font-size: 2.2em;
+  }
+
+  p {
+    font-size: 1.4em;
+  }
+
   header.container {
     margin-left: 0px;
     margin-right: 0px;
   }
 
   ul {
-    font-size: 2em;
-    line-height: 2em;
+    font-size: 1.7em;
+    line-height: 1.6em;
   }
 
   footer p {
