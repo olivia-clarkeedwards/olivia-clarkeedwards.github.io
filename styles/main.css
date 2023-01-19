@@ -276,6 +276,10 @@ p#coding-example {
   border-radius: 50%;
 }
 
+img.blog-index {
+  /*tbc*/
+}
+
 @media (min-width: 600px) {
 
   h1 {
