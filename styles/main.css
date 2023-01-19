@@ -271,8 +271,6 @@ p#coding-example {
   border: 10px double var(--accent-color);
 }
 
-
-
 @media (min-width: 600px) {
 
   h1 {
