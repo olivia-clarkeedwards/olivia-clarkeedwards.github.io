@@ -271,6 +271,11 @@ p#coding-example {
   border: 10px double var(--accent-color);
 }
 
+#photo-about-me {
+  width: 200px;
+  border-radius: 50%;
+}
+
 @media (min-width: 600px) {
 
   h1 {
