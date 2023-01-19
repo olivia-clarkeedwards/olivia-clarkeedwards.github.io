@@ -102,6 +102,7 @@ h4 {
   font-family: 'Chakra Petch', sans-serif;
   font-size: 1.2em;
   line-height: 2em;
+  padding-top: 1em;
 }
 
 p {
@@ -166,15 +167,15 @@ footer.container {
 }
 
 p:first-of-type {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 p:last-of-type {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 p.single-paragraph {
-  padding: 0.5em;
+  padding: 30px;
 }
 
 #welcome {
@@ -226,6 +227,51 @@ td {
 #row-1 {
   border-bottom: solid 2px var(--accent-color);
 }
+
+.margin-demo {
+  display: inline-block;
+  width: 150px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  line-height: 0em;
+  font-size: 0em;
+}
+
+.add-margin {
+  margin: 20px;
+}
+
+.add-border {
+  border: 2px solid var(--paragraph-text-color);
+}
+
+.add-styled-border {
+  border: 5px dashed var(--accent-color);
+}
+
+.add-padding {
+  padding: 10px;
+}
+
+.add-more-padding {
+  padding: 40px;
+}
+
+p.stripped {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+p#coding-example {
+  padding: 10px;
+  padding-top: 50px;
+  margin: 100px;
+  border: 10px double var(--accent-color);
+}
+
+
 
 @media (min-width: 600px) {
 
@@ -315,6 +361,7 @@ td {
   footer p {
     font-size: 1.5em;
   }
+
   
 }
 
