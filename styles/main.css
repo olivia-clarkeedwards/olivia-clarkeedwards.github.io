@@ -271,8 +271,25 @@ td {
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 930px) {
+  h1 {
+    display: inline-block;
+    text-align: left;
+    margin-left: 0px;
+  }
 
+  h2 {
+    display: inline-block;
+    text-align: right;
+    margin-right: 0px;
+    vertical-align: middle;
+  }
+
+  header.container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
 }
 
 
