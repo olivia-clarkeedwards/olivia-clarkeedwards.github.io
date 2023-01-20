@@ -85,3 +85,10 @@ Wrapping picture
 
 Photo by <a href="https://unsplash.com/@element5digital?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Element5 Digital</a> on <a href="https://unsplash.com/photos/HnyPuEgW0O8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
+
+  
+Core blog 1 
+
+girl in tech imgae 
+
+Photo by <a href="https://unsplash.com/@thoughtcatalog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thought Catalog</a> on <a href="https://unsplash.com/photos/505eectW54k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

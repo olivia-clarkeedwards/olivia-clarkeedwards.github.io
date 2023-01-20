@@ -271,7 +271,7 @@ p#coding-example {
   border: 10px double var(--accent-color);
 }
 
-#photo-about-me {
+.round-photo {
   width: 200px;
   border-radius: 50%;
 }
