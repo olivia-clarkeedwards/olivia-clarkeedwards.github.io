@@ -216,6 +216,18 @@ ul {
     list-style: none;
 }
 
+div.blog-list {
+  text-align: center;
+}
+
+ol {
+  display: inline-block;
+  list-style: decimal;
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 img {
   width: 100%;
   padding: 1em;
@@ -274,10 +286,6 @@ p#coding-example {
 .round-photo {
   width: 200px;
   border-radius: 50%;
-}
-
-img.blog-index {
-  /*tbc*/
 }
 
 @media (min-width: 600px) {
