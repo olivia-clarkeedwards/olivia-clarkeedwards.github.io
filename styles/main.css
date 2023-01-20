@@ -178,7 +178,7 @@ p.single-paragraph {
   padding: 30px;
 }
 
-#welcome {
+.welcome {
   color: var(--heading-text-color);
   background-image: url(../images/matrix-code-image.jpg); 
   background-color: #f5a4c1;
