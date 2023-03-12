@@ -58,12 +58,12 @@ Colours
 */
 
 html {
-  --accent-color: #48a169;
-  --accent-color-light: #54b578;
+  --accent-color: #1e8e43;
+  --accent-color-light: #187437;
   --main-background-color: #FBDDE8;
   --paragraph-text-color: #181818;
   --heading-text-color: #FFF;
-  --index-text-color: #fad9b8;
+  --index-text-color: #fbe6ee;
   --section-background-color: #fc70a3;
 }
 
